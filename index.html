@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conexão do Bem</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="inicio">
+      <div class="slider-container">
+        <div class="slider">
+          <div class="slide">
+            <div class="slide-content">
+              <h1>Conexão do Bem</h1>
+              <p>Bem-vindo(a) ao Conexão do Bem, onde buscamos fazer a diferença por meio de ações sociais!</p>
+              <a href="#contato" class="cta-button">Junte-se a nós</a>
+          </div>
+          <img src="img/foto1.jpg" alt="Imagem 1" class="photo">
+      </div>
+      <div class="slide">
+        <div class="slide-content">
+          <h1>Conexão do Bem</h1>
+          <p>Bem-vindo(a) ao Conexão do Bem, onde buscamos fazer a diferença por meio de ações sociais!</p>
+          <a href="#contato" class="cta-button">Junte-se a nós</a>
+      </div>
+      <img src="img/foto2.jpeg" alt="Imagem 2" class="photo">
+  </div>
+  <div class="slide">
+    <div class="slide-content">
+      <h1>Conexão do Bem</h1>
+      <p>Bem-vindo(a) ao Conexão do Bem, onde buscamos fazer a diferença por meio de ações sociais!</p>
+      <a href="#contato" class="cta-button">Junte-se a nós</a>
+  </div>
+  <img src="img/foto3.jpeg" alt="Imagem 3" class="photo">
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section id="sobre">
+    <h2>Sobre nós</h2>
+    <p>O Conexão do Bem é um projeto dedicado a promover ações sociais em nossa comunidade. Nossa missão é trazer pessoas dispostas a ajudar e contribuir para um mundo melhor.</p>
+</section>
+
+<section id="Nprojetos">
+    <h2>Nossos Projetos</h2>
+</section>
+
+
+<section id="projetos">
+    <div class="project">
+        <h3>Projeto 1</h3>
+        <img src="img/foto4.jpeg" alt="Imagem Projeto 1" class="project-image">
+        <h4>Descrição do projeto 1...</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+        </p>
+    </div>
+    <div class="project">
+        <h3>Projeto 2</h3>
+        <img src="img/foto5.jpeg" alt="Imagem Projeto 1" class="project-image">
+        <h4>Descrição do projeto 1...</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+        </p>
+    </div>
+    <div class="project">
+        <h3>Projeto 3</h3>
+        <img src="img/foto6.jpeg" alt="Imagem Projeto 1" class="project-image">
+        <h4>Descrição do projeto 1...</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+        </p>   
+    </div>
+        <!-- Adicione mais projetos conforme necessário -->
+    </section>
+
+    <section id="contato">
+        <div class="contact-container">
+            <h2>Entre em Contato</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Nome" class="form-input">
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="E-mail" class="form-input">
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Mensagem" class="form-input"></textarea>
+                </div>
+                <button type="submit" class="form-button">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Conexão do Bem. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.slider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+            autoplaySpeed: 3000, // Tempo de exibição de cada slide em milissegundos
+            arrows: false,
+            dots: true
+        });
+        });
+    </script>
+</body>
+</html>
